@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from clirec.net/CLIREC/index.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Apr 2024 20:00:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+    <meta http-equiv="Content-Type" content="text/html; charset= ISO-8859-1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Clirec Enterprise</title>
+        <script type="text/javascript">
+        if (self !== top) {
+            top.location = self.location;
+        }
+    </script>
+
+
+    <!--favicon-->
+        <link rel="icon" href="templaten/assets/images/clirecicon.ico" type="image/ico" />
+    <!-- plugins:css -->
+        <!-- loader-->
+        <link href="templaten/assets/css/pace.min.css" rel="stylesheet" />
+        <script src="templaten/assets/js/pace.min.js"></script>
+
+    <!-- notification:css -->
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="templaten/assets/css/bootstrap.min.css" />
+        <!-- Icons CSS -->
+        <link rel="stylesheet" href="templaten/assets/css/icons.css" />
+        <!-- App CSS -->
+        <link rel="stylesheet" href="templaten/assets/css/app.css" />
+        <!-- Select CSS -->
+        <link href="assets/global/plugins/select2/select2.css" rel="stylesheet" type="text/css"/>
+        <link href="templaten/assets/plugins/select2/css/select2-bootstrap4.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+
+
+
+    <style>
+        .alert {
+            display: none;
+        }
+
+        .my-4 {
+            display: none;
+        }
+
+        .select2-container .select2-choice {
+        border: 1px solid #fff !important;
+        }
+
+        #submit, #submit2 {
+            background-color: rgb(43, 36, 73);
+        }
+
+        .modal-header {
+                background: rgb(43, 36, 73) !important;
+        }
+    </style>
+        <style>
+ #cookiePopup {
+    background: white;
+    width: 25%;
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    box-shadow: 0px 0px 15px #cccccc;
+    padding: 5px 10px;
+  }
+    #cookiePopup p{
+    text-align: left;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+  #cookiePopup button{
+    width: 100%;
+    border: navajowhite;
+    background: #097fb7;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+  }
+</style>
+
+</head>
+<body style="background-color: rgb(43, 36, 73)">
+
+
+        <script>
+                sessionStorage.cloud = "false";
+                var cloud = "cloud";
+                var params = { act: encodeURIComponent(cloud) };
+        $.ajax({
+            url: "InteractiveInterface.ashx",
+                        type: "POST",
+            data: $.param(params),
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            success: function (result) {
+                                var cloud = result;
+                                //console.log('cloud ' + cloud);
+                                if (cloud.toLowerCase() === "true") {
+                    document.getElementById("userlogin").innerHTML = 'Email <span class="text-danger">*</span>';
+                                        document.getElementById("userID").placeholder = 'Enter your Email';
+                    sessionStorage.cloud = "true";
+                }
+
+
+
+            }
+
+        });
+    </script>
+
+
+      <input id="swt" type="hidden" value='' />
+       <input id="actid" type="hidden" value='' />
+    <input id="twofa" type="hidden" value='' />
+    <input id="status" type="hidden" value='' />
+     <input id="switchaccount" type="hidden" value="" />
+     <input id="workingmonth" type="hidden" value="" />
+     <input id="proceed" type="hidden" value="" />
+
+    <!-- wrapper -->
+        <div class="wrapper">
+                <div class="section-authentication-login d-flex align-items-center justify-content-center">
+                        <div class="row">
+
+                                <div class="col-5 col-lg-5">
+                                        <p class="text-white"> </p>
+                                        <h5 class="text-white ">Important Notice! </h5>
+                                        <p class="text-white">Message coming soon. </p>
+                                </div>
+                                <div class="col-2 col-lg-2">
+                                        <div class="overlay" id="ajaxLoader" style="display: none; background-color: rgba(0,0,0,0.4); position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1000;"><img src="Images/gears.gif" style="position: absolute; top: 0; bottom: 0; margin: auto; left: 40%; z-index:1000" /></div>
+                                </div>
+                                <div class="col-5 col-lg-5 mx-auto">
+                                        <div class="" style="  width: 400px; background-color: rgb(62 54 92 /25%);">
+                                                <div class="row no-gutters">
+                                                        <div class="col-12 col-lg-12">
+                                                                <div class="card-body">
+                                                                        <div class="text-center">
+                                                                                <img src="images/clireclog
+
+                                                                        <div class="btn-group mt-3 w-100" id="lg">
+                                                                                <button type="button" class="btn btn-block text-white" id="submit"> Log In </button>
+
+
+
+
+
+                                    <div class="form-row" id="fpassword">
+                                                                                <div class="form-group col">
+
+                                                                                </div>
+                                                                                <div class="form-group col text-right mt-3"> <a href="#" class="text-white" id="forgotpass" data-toggle="modal" data-target="#forgotModal7"><i class='bx bxs-key mr-2'></i>Forgot Password</a>
+                                                                                </div>
+                                                                        </div>
+
+
+
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                                <!--end row-->
+
+
+
+                                        </div>
+
+
+
+                                </div>
+                                <div class="col-12 text-center mt-5">
+
+
+                                <i class="text-white">  Copyright &copy; 2024  Precise Financial Systems Ltd. All Rights Reserved. </i>
+
+                        </div>
+                        </div>
+
+
+
+                </div>
+
+        </div>
+        <!-- end wrapper -->
+
+
+        <div id="cookiePopup">
+  <h4>Cookie Consent</h4>
+  <p>Clirec uses cookies to provide you a better user experience.Before continuing to use Clirec, you agree & accept to our  <a href="#" data-toggle="modal" data-target="#cookiepolicy">Cookie Policy</a></p>
+ <button id="acceptCookie">Accept</button>
+</div>
+
+
+                <div class="modal fade" id="forgotModal7" tabindex="-1" role="dialog" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered">
+                                                                        <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+                                                                                        </button>
+
+                                                                                </div>
+                                                                                <div class="modal-body">
+
+                                                                                        <!-- Forgot Password -->
+
+                                        <div class="text-center">
+                                                <img src="templaten/assets/images/icons/forgot-2.png" width="60" alt="" />
+                                        </div>
+
+                                        <p class="text-muted text-center">Enter your User ID to reset the password</p>
+                      <div class="alert alert-warning alert-dismissible fade show" id="info1" role="alert">
+
+                                    </div>
+
+
+                                        <div class="form-group">
+
+                                                <input type="text" class="form-control form-control-lg" id="fuserid" name="Username" placeholder="Username" required />
+                                        </div>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block " id="submit2" onclick="forgotPassword()"> Submit </button>
+                                        <a  data-dismiss="modal"  class="btn btn-link btn-block"><i class='bx bx-arrow-back mr-1'></i>Back to Login</a>
+                                </div>
+
+        <!-- end Forgot Password -->
+
+
+                                        <div class="form-group">
+
+                                                <input type="password" class="form-control" id="newpass" name="newpass" placeholder="New Password" required />
+                                        </div>
+                                        <div class="form-group">
+
+                                                <input type="password" class="form-control" id="confirmpass" name="confirmpass" placeholder="Confirm New Password" required />
+                                        </div>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block " id="submit3" onclick="newPassword()"> Submit </button>
+                                        <a  data-dismiss="modal"  class="btn btn-link btn-block" onclick="Logout()"><i class='bx bx-arrow-back mr-1'></i>Back to Login</a>
+                                </div>
+
+        <!-- end New inner Password -->
+
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+
+        <!--End New Password -->
+
+
+                        <div class="modal fade" id="cookiepolicy" tabindex="-1" role="dialog" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered">
+                                                                        <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+                                                                                        </button>
+
+                                                                                </div>
+                                                                                <div class="modal-body">
+
+                                                                                        <!-- Forgot Password -->
+
+                                        <div class="text-center">
+                                                <h2>Cookies Policy</h2>
+                                        </div>
+
+                                        <div class="form-group">
+                                <p>     Our Cookies policy was last updated on 31st October 2022.</p>
+
+<p>This Cookies do not typically contain any information that personally identifies a user, but personal information that we store about you may be linked to the information stored in and obtained from cookies.</p>
+
+<p>We do not store sensitive personal information, such as account passwords etc. in the Cookies we use</p>
+                                        </div>
+
+                                        <a  data-dismiss="modal"  class="btn btn-link btn-block"><i class='bx bx-arrow-back mr-1'></i>Close</a>
+                                </div>
+                                </div>
+                        </div>
+</div>
+
+
+
+
+
+
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+
+
+
+
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+
+    <script src="sources/crypto-js.min.js"></script>
+        <script src="sources/cripto.js"></script>
+    <script src="sources/Onboard.js" type="text/javascript"> </script>
+
+
+    <!-- endinject -->
+    <script src="templaten/assets/js/bootstrap.min.js"></script>
+
+        <!--notification js -->
+
+
+        <!-- Login -->
+
+    <script src="sources/jquery.alerts.js" type="text/javascript"></script>
+
+        <!-- Select 2 -->
+        <script type="text/javascript" src="assets/global/plugins/select2/select2.min.js"></script>
+        <script>
+        $('.single-select').select2({
+            theme: 'bootstrap4',
+            width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+            placeholder: $(this).data('placeholder'),
+            allowClear: Boolean($(this).data('allow-clear')),
+        });
+
+
+                // disable copy and paste
+
+        $(document).ready(function () {
+            $('input[type=password]').bind('copy paste', function (e) {
+                                e.preventDefault();
+                                alert('Copy and paste of password is not allowed, kindly enter your password!');
+            });
+        });
+
+    </script>
+        <script type="text/javascript">
+        // set cookie according to you
+        var cookieName = "ClirecCookieStatus";
+        var cookieValue = "ClirecCookie";
+        var cookieExpireDays = 30;
+
+        // when users click accept button
+        let acceptCookie = document.getElementById("acceptCookie");
+                acceptCookie.onclick = function () {
+                        //enable login button
+            document.getElementById("lg").style.display = "block";
+            createCookie(cookieName, cookieValue, cookieExpireDays);
+        }
+
+        // function to set cookie in web browser
+        let createCookie = function (cookieName, cookieValue, cookieExpireDays) {
+            let currentDate = new Date();
+            currentDate.setTime(currentDate.getTime() + (cookieExpireDays * 24 * 60 * 60 * 1000));
+            let expires = "expires=" + currentDate.toGMTString();
+            document.cookie = cookieName + "=" + cookieValue + "; secure;" + expires + ";path=/";
+            if (document.cookie) {
+                document.getElementById("cookiePopup").style.display = "none";
+            } else {
+                alert("Unable to set cookie. Please allow all cookies site from cookie setting of your browser");
+            }
+
+        }
+
+        // get cookie from the web browser
+        let getCookie = function (cookieName) {
+            let name = cookieName + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        // check cookie is set or not
+        let checkCookie = function () {
+            let check = getCookie(cookieName);
+                        if (check == "") {
+                                // disable login button
+                                document.getElementById("lg").style.display = "none";
+                document.getElementById("cookiePopup").style.display = "block";
+            } else {
+                                // enable login button
+                document.getElementById("lg").style.display = "block";
+                document.getElementById("cookiePopup").style.display = "none";
+            }
+        }
+        checkCookie();
+    </script>
+
+</body>

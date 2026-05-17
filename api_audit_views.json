@@ -1,0 +1,830 @@
+[
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\Analytics.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Admin.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Candidates.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\CurriculumGen.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\DailyAttendance.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Departments.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Employees.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\GenQuestions.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Guarantors.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Inbox.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Interviews.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\LeaveManagement.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\MarkSheet.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Noticeboard.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Onboarding.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Parents.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Payroll.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Recruitment.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Reports.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\RolesPermissions.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Settings.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\StudentProfile.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\StudyMaterial.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Subject.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\Teacher.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\accounting\\StuPayments.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\accounting\\StuReceipt.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\class\\AcademicSyllabus.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\class\\Manageclass.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\ExamGrade.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\ExamList.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\ManageMarks.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\MarkingWorkSpace.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\OnScreenMarkingHub.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\OnScreenMarkingLayout.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\exam\\TabulationSheet.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\onlineexam\\Create.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\onlineexam\\Manage.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\onlineexam\\ManageQuestions.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\psycho\\Category.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\psycho\\PsychoStudentReport.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\student\\Admit-Student.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\student\\Student-Information.tsx",
+    "role": "admindashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\student\\Student-Promo.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\system\\Account.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\admindashboard\\views\\system\\Profile.tsx",
+    "role": "admindashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\Analytics.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Admin.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Candidates.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\CurriculumGen.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\DailyAttendance.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Departments.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Employees.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\GenQuestions.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Guarantors.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Inbox.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Interviews.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\LeaveManagement.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\MarkSheet.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Noticeboard.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Onboarding.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Parents.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Payroll.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Recruitment.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Reports.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\RolesPermissions.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Settings.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\StudentProfile.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\StudyMaterial.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Subject.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\Teacher.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\accounting\\StuPayments.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\accounting\\StuReceipt.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\class\\AcademicSyllabus.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\class\\Manageclass.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\ExamGrade.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\ExamList.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\ManageMarks.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\MarkingWorkSpace.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\OnScreenMarkingHub.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\OnScreenMarkingLayout.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\exam\\TabulationSheet.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\onlineexam\\Create.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\onlineexam\\Manage.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\onlineexam\\ManageQuestions.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\psycho\\Category.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\psycho\\PsychoStudentReport.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\student\\Admit-Student.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\student\\Student-Information.tsx",
+    "role": "teacherdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\student\\Student-Promo.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\system\\Account.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\teacherdashboard\\views\\system\\Profile.tsx",
+    "role": "teacherdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\Analytics.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Admin.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Candidates.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\CurriculumGen.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\DailyAttendance.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Departments.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Employees.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\GenQuestions.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Guarantors.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Inbox.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Interviews.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\LeaveManagement.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\MarkSheet.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Noticeboard.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Onboarding.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Parents.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Payroll.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Recruitment.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Reports.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\RolesPermissions.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Settings.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\StudentProfile.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\StudyMaterial.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Subject.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\Teacher.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\accounting\\StuPayments.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\accounting\\StuReceipt.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\class\\AcademicSyllabus.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\class\\Manageclass.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\ExamGrade.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\ExamList.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\ManageMarks.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\MarkingWorkSpace.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\OnScreenMarkingHub.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\OnScreenMarkingLayout.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\exam\\TabulationSheet.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\onlineexam\\Create.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\onlineexam\\Manage.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\onlineexam\\ManageQuestions.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\psycho\\Category.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\psycho\\PsychoStudentReport.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\student\\Admit-Student.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\student\\Student-Information.tsx",
+    "role": "studentdashboard",
+    "has_api": true,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\student\\Student-Promo.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\system\\Account.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  },
+  {
+    "file": "newUI\\src\\app\\views\\studentdashboard\\views\\system\\Profile.tsx",
+    "role": "studentdashboard",
+    "has_api": false,
+    "is_reexport": false
+  }
+]

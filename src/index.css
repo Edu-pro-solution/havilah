@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:wght@700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    --primary: 213 100% 33%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 8%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 0 0% 0%;
+    --accent: 213 100% 96%;
+    --accent-foreground: 213 100% 33%;
+    --destructive: 213 100% 33%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 20% 88%;
+    --input: 0 0% 0%;
+    --ring: 213 100% 33%;
+    --radius: 0.5rem;
+    --sidebar-background: 213 100% 29%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 213 100% 29%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 213 100% 40%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 213 100% 40%;
+    --sidebar-ring: 0 0% 100%;
+    --chart-1: 213 100% 33%;
+    --chart-2: 0 0% 15%;
+    --chart-3: 0 0% 35%;
+    --chart-4: 0 0% 55%;
+    --chart-5: 0 0% 75%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 213 100% 33%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 82%;
+    --accent: 213 100% 24%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 213 100% 33%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 213 18% 28%;
+    --input: 0 0% 100%;
+    --ring: 213 100% 33%;
+    --sidebar-background: 213 100% 33%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 213 100% 33%;
+    --sidebar-accent: 213 100% 40%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 213 100% 40%;
+    --sidebar-ring: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  #root {
+    min-height: 100dvh;
+    min-height: 100vh;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-weight: 700;
+  }
+
+  .printable-receipt .text-slate-500 {
+    display: none;
+  }
+}
+
+@media print {
+  @page {
+    margin: 6mm;
+    size: auto;
+  }
+
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  body * { visibility: hidden; }
+
+  .printable-receipt,
+  .printable-receipt *,
+  .printable-area,
+  .printable-area * {
+    visibility: visible;
+  }
+
+  .printable-receipt {
+    position: static !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  .printable-area {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  .printable-wide {
+    overflow: visible !important;
+  }
+
+  .printable-wide table {
+    min-width: 0 !important;
+    width: 100% !important;
+    table-layout: auto !important;
+  }
+
+  .printable-wide input {
+    border: 1px solid #000 !important;
+    color: #000 !important;
+    background: #fff !important;
+  }
+
+  .print-preserve-color,
+  .print-preserve-color * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-id-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    break-inside: avoid;
+  }
+
+  .print-id-sidebar {
+    background: hsl(var(--primary)) !important;
+    color: hsl(var(--primary-foreground)) !important;
+  }
+
+  .print-id-accent {
+    background: rgba(255, 255, 255, 0.12) !important;
+  }
+
+  .print-id-surface {
+    background: rgba(255, 255, 255, 0.92) !important;
+  }
+}

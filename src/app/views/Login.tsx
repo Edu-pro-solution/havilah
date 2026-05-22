@@ -46,11 +46,11 @@ const Login = () => {
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader className="text-center space-y-4 px-4 sm:px-6">
           <div className="flex justify-center">
-            <img
+            {/* <img
               src={logo}
               alt="Havilah Schools"
               className="h-16 w-16 sm:h-20 sm:w-20 object-contain"
-            />
+            /> */}
           </div>
           <div>
             <CardTitle className="text-xl sm:text-2xl text-foreground">

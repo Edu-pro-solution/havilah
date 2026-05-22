@@ -18,7 +18,7 @@ export const departments = [
   { id: "4", name: "Logistics", head: "Mr. Emeka Nnamdi", staffCount: 15, createdAt: "2020-06-15" },
   { id: "5", name: "Sales", head: "Mrs. Binta Hassan", staffCount: 10, createdAt: "2021-03-01" },
   { id: "6", name: "IT", head: "Mr. Tunde Bakare", staffCount: 6, createdAt: "2020-01-01" },
-  { id: "7", name: "Human Resources", head: "Edana Admin", staffCount: 4, createdAt: "2020-01-01" },
+  { id: "7", name: "Human Resources", head: "Havilah Admin", staffCount: 4, createdAt: "2020-01-01" },
 ];
 
 export const jobPositions = [

@@ -360,14 +360,14 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b border-sidebar-border bg-[#004aaa] p-4">
         <div className="flex items-center gap-3">
-          <img src={logo} alt="EduPro" className="h-10 w-10 rounded object-contain" />
+          {/* <img src={logo} alt="EduPro" className="h-10 w-10 rounded object-contain" /> */}
           {!collapsed && (
             <div className="flex flex-col">
               <span className="text-sm font-bold text-sidebar-foreground leading-tight">
-                EDANA Schools
+                Havilah Schools
               </span>
               <span className="text-[10px] text-white">
-                edanamonteschools@gmail.com
+               Havilah@gmail.com
               </span>
             </div>
           )}

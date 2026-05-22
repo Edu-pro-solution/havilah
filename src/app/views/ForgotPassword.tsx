@@ -43,7 +43,7 @@ export default function ForgotPassword() {
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader className="space-y-4 text-center">
           <div className="flex justify-center">
-            <img src={logo} alt="Edana Schools" className="h-16 w-16 object-contain" />
+            <img src={logo} alt="Havilah Schools" className="h-16 w-16 object-contain" />
           </div>
           <div>
             <CardTitle className="text-2xl text-foreground">Reset Password</CardTitle>

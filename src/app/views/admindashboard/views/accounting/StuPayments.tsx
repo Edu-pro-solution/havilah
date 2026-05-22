@@ -253,7 +253,7 @@ export default function PaymentHistory() {
             <div>
               <h2 className="text-2xl font-bold text-primary">{school.name}</h2>
               <p className="text-sm text-black">{[school.address, school.email].filter(Boolean).join(" • ")}</p>
-              <p className="text-sm text-slate-500">14, Babs Ladipo Street, Lagos • support@edana.com</p>
+              <p className="text-sm text-slate-500">14, Ogun State • support@Havilah.com</p>
             </div>
           </CardHeader>
           <CardContent className="p-8 space-y-6">

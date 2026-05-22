@@ -132,7 +132,7 @@ export default function ManageMarks() {
     try {
       const [stuRes, scoresRes] = await Promise.allSettled([
         axios.get(`${apiUrl}/api/students/${sessionId}/${selectedClass}`, { headers: authHeaders() }),
-        axios.get(`${apiUrl}/api/get-all-scores/${selectedExam}/${selectedSubjectId}/${sessionId}`, {
+        axios.get(`${apiUrl}/api/get-all-scores/${selectedExam}/${selectedSubjectId}`, {
           headers: authHeaders(),
         }),
       ]);
